@@ -1,0 +1,20 @@
+=== JOURNAL DE BORD - Projet site web NSI ===
+On a commencé le projet. Le but : faire un blog avec Flask.
+On a regardé comment les routes marchaient. C'est pas compliqué.
+On a crée le dépot GitHub. On a galéré 30 min.
+
+On a fait le formulaire HTML avec titre, auteur, contenu.
+Problème : les données arrivaient pas coté serveur.
+Je m'était trompé dans les liens entres les fichiers.
+Encore des problèmes avec GitHub.
+
+On a fait la page blog.html pour afficher les articles.
+Les données sont dans articles.json pour pas les perdre au redémarage.
+On a aussi fait la suppression.
+
+On a ajouté le JavaScript. Deux fonctions :
+- compterArticles() : affiche le nombre d'articles
+- confirmerSuppression() : demande confirmation avant de supprimer
+Deux fichiers CSS séparés aussi, un par page.
+
+Le site marche. Deux pages, deux routes, JSON, CSS, JS.

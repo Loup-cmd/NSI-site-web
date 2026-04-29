@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Blog</title>
+    <link rel="stylesheet" href="/static/styleBlog.css">
+</head>
+<body>
+
+<header>Mon Blog</header>
+
+<div class="controls">
+    <a href="/"><button type="button">+ Nouvel article</button></a>
+    <p id="compteur"></p>
+</div>
+
+<div id="liste-articles">
+    {% if articles %}
+        {% for article in articles %}
+        <div class="article">
+            <h2>{{ article.titre }}</h2>
+            <p><strong>Par :</strong> {{ article.auteur }}</p>
+            <p>{{ article.contenu }}</p>
+            <!-- onclick appelle le JS pour demander confirmation avant de supprimer -->
+            <a href="#" onclick="confirmerSuppression('/supprimer/{{ loop.index0 }}')">Supprimer</a>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>Aucun article pour l'instant.</p>
+    {% endif %}
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

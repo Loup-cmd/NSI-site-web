@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Créer un article</title>
+    <link rel="stylesheet" href="/static/styleFormulaire.css">
+</head>
+<body>
+
+<div class="formulaire">
+    <h1>Créer un article</h1>
+
+    <form action="/ajouter" method="POST">
+        <p>Titre</p>
+        <input type="text" name="titre" required>
+
+        <p>Auteur</p>
+        <input type="text" name="auteur" required>
+
+        <p>Contenu</p>
+        <textarea name="contenu" rows="4"></textarea>
+
+        <button type="submit">Publier</button>
+    </form>
+
+    <a href="/blog">Voir tous les articles</a>
+</div>
+
+</body>
+</html>

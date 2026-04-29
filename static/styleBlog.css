@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.controls {
+    text-align: center;
+    margin: 15px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+    color: white;
+}
+
+#liste-articles {
+    width: 500px;
+    margin: auto;
+}
+
+.article {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+a {
+    color: red;
+}

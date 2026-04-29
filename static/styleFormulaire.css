@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #90D5FF;
+}
+
+h1 {
+    text-align: center;
+}
+
+.formulaire {
+    width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+button:hover {
+    background: #555;
+    color: white;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}

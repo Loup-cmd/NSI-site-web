@@ -1,0 +1,27 @@
+[
+  {
+    "titre": "Introduction à JavaScript",
+    "auteur": "Marie Dupont",
+    "contenu": "JavaScript est un langage de programmation utilisé pour le développement web interactif."
+  },
+  {
+    "titre": "Les bases de Python",
+    "auteur": "Jean Martin",
+    "contenu": "Python est apprécié pour sa syntaxe simple et sa polyvalence dans plusieurs domaines."
+  },
+  {
+    "titre": "Découverte de SQL",
+    "auteur": "Sophie Bernard",
+    "contenu": "SQL permet de manipuler et interroger des bases de données relationnelles efficacement."
+  },
+  {
+    "titre": "Guide HTML/CSS",
+    "auteur": "Lucas Moreau",
+    "contenu": "HTML structure les pages web tandis que CSS gère leur apparence visuelle."
+  },
+  {
+    "titre": "API REST expliquée",
+    "auteur": "Emma Leroy",
+    "contenu": "Une API REST permet la communication entre applications via des requêtes HTTP."
+  }
+]
