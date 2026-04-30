@@ -4,9 +4,11 @@ On a regardé comment les routes marchaient. C'est pas compliqué.
 On a crée le dépot GitHub. On a galéré 30 min.
 
 On a fait le formulaire HTML avec titre, auteur, contenu.
-Encore des problèmes avec GitHub.
-
 On a fait la page blog.html pour afficher les articles.
+On a galere pour afficher la list sur le html.
+On a demandé a Claude de nous expliquer comment on pourrais faire,
+il nous a proposé une methode un peu comme votre jeu d'echecs avec du python dans l'html,
+On a un peu galere mais ca a été.
 Les données sont dans articles.json pour pas les perdre au redémarage.
 On a aussi fait la suppression.
 
