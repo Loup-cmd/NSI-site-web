@@ -12,7 +12,9 @@ On a un peu galere mais ca a été.
 Les données sont dans articles.json pour pas les perdre au redémarage.
 On a aussi fait la suppression.
 
-On a ajouté le JavaScript; Deux fonctions :
+On savait pas quoi mettre dans le Javascript.
+On a brainstormé et on a trouvé deux idées ;
+On a ajouté le JavaScript:
 - compterArticles() : affiche le nombre d'articles
 - confirmerSuppression() : demande confirmation avant de supprimer
 Deux fichiers CSS séparés aussi, un par page.
