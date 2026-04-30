@@ -17,6 +17,7 @@ On a brainstormé et on a trouvé deux idées ;
 On a ajouté le JavaScript:
 - compterArticles() : affiche le nombre d'articles
 - confirmerSuppression() : demande confirmation avant de supprimer
-Deux fichiers CSS séparés aussi, un par page.
+Deux fichiers CSS séparés aussi, un par page car on avait des conflit entre noms.
+C'est pas très pro mais ca marche et au finale ca fait quand même serieux
 
 Le site marche. Deux pages, deux routes, JSON, CSS, JS.
